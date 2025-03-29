@@ -7,8 +7,9 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'b-image': "url('/src/assets/icons&images/b-img.jpeg')",
-        'logo': "url('/src/assets/icons&images/Logo.svg')",
+        'b-image': "url('/src/assets/b-img.jpeg')",
+        'logo': "url('/src/assets/logo.svg')",
+        'New': "url('/src/assets/New.png')",
       }
     },
   },
