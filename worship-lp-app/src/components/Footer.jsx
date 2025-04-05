@@ -10,11 +10,16 @@ function Footer() {
 
       <div className="logo-container ">
         <a href="">
-          <img src="/src/assets/logo.svg" alt="Logo" className="logo size-40" />
+          <img src="/src/assets/logo.svg" alt="Logo" className="logo size-40 ml-60" />
         </a>
       </div>
 
-      <div>&copy;worshipLeadPlanner - {new Date().getFullYear()}</div>
+      <div className="mr-60"> 
+      <a href=""> &copy;worshipLeadPlanner@{new Date().getFullYear()}
+      </a>
+      </div>
+      
+
     </footer>
   );
 }
