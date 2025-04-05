@@ -1,9 +1,10 @@
-import Home from "./components/Home";
+import React from "react";
+import HomePage from "./components/HomePage";
 import Navbar from "./components/navbar";
 
 function App() {
   return <div className="h-screen bg-green-800">
-    <Home />
+    <HomePage />
     <Navbar />
   </div>;
 }
