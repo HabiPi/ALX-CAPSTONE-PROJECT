@@ -1,6 +1,7 @@
 import React from "react";
 import Logo from "./logo";
 import Navbar from "./navbar";
+import FeatureButtons from "./FeatureButtons";
 import AboutPage from "./AboutPage";
 import ContactPage from "./ContactPage";
 import Footer from "./footer";
@@ -24,46 +25,7 @@ function Home() {
           </div>
         </section>
 
-        <section>
-          <div className="flex justify-around text-white p-10">
-            <div>
-              <a href="">
-                <img src="/src/assets/newImage.png" alt="Plus icon" className="w-10" />
-                <div>
-                <p>Add Plan</p>
-                </div>
-              </a>
-            </div>
-
-            <div>
-              <a href="">
-                <img src="/src/assets/newImage.png" alt="Plus icon" className="w-10"/>
-                <p>Add Playlist</p>
-              </a>
-            </div>
-
-            <div className="">
-              <a href="">
-                <img src="/src/assets/band.png" alt="Plus icon" className="w-10" />
-                <p>Add Music Team</p>
-              </a>
-            </div>
-          </div>
-        </section>
-
-        <section className="bg-green-800 text-white text-center flex justify-center p-10">
-          <div>
-            <a href="">
-              <img
-                src="/src/assets/folder.png"
-                alt="a folder"
-                className="w-10 h-auto pl-4"
-              />
-              <p>Planned</p>
-            </a>
-          </div>
-        </section>
-
+        <FeatureButtons />
         <AboutPage />
         <ContactPage />
       </main>

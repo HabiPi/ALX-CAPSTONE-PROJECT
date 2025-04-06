@@ -4,7 +4,7 @@ function AboutPage() {
   
   return (
     
-    <div className="border-y-2 shadow-2xl md:text-4xl flex flex-col justify-center items-center px-10 p-20">
+    <div className="border-y-2 shadow-2xl md:text-4xl flex flex-col justify-center items-center px-10 p-2">
       <h1 className="text-black text-4xl text-center font-bold p-20" >About the App</h1>
       <p className="text-black text-lg text-center my-4 mx-60">
         This is a simple application to help worship leaders plan their services
