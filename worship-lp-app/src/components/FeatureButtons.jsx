@@ -92,7 +92,8 @@ function FeatureButtons() {
       </div>
 
         {isModalOpen && (
-            <div className="bg-green-800 text-white p-8 rounded-lg w-96">
+                <div className="fixed top-0 left-0 w-full inset-0 flex items-center justify-center z-50 bg-black bg-opacity-50">
+                <div className="bg-green-800 text-white p-8 rounded-lg w-96">
                 <div className="flex justify-between items-center mb-6">
                 <h2 className="text-xl font-semibold">ADD NEW PLAN</h2>
                 <button onClick={closeModel} className="text-gray-400 hover:text-white">
@@ -120,6 +121,7 @@ function FeatureButtons() {
                     Done
                 </button>
                 </div>
+            </div>
             </div>
             )}
     </section>

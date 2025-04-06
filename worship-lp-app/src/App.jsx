@@ -5,6 +5,7 @@ import AboutPage from "./components/AboutPage";
 import ContactPage from "./components/ContactPage";
 import AddPlanModal from "./components/AddPlanModal";
 
+
 function App() {
   return <div className="h-screen bg-green-800">
     <Router>
